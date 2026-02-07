@@ -3,87 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard – Psychologische Beratung & Therapie</title>
+    <title>Richard – Psychologische Beratung Zürich</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         h1, h2 { font-family: 'Playfair Display', serif; }
+        .bg-cream { background-color: #F9F7F2; }
     </style>
 </head>
-<body class="bg-[#F9F7F2] text-[#2D2D2D] leading-relaxed">
+<body class="bg-cream text-[#2D2D2D] leading-relaxed">
 
-    <nav class="flex justify-between items-center px-8 py-6 max-w-6xl mx-auto">
-        <div class="text-xl font-semibold tracking-widest uppercase">Richard</div>
-        <div class="space-x-8 hidden md:block text-sm uppercase tracking-wider">
-            <a href="#about" class="hover:opacity-60 transition">Über mich</a>
-            <a href="#services" class="hover:opacity-60 transition">Angebot</a>
-            <a href="#contact" class="bg-[#2D2D2D] text-white px-5 py-2 rounded-full hover:bg-opacity-80 transition">Kontakt</a>
+    <nav class="flex justify-between items-center px-8 py-8 max-w-6xl mx-auto">
+        <div class="text-xl font-light tracking-[0.2em] uppercase">Richard</div>
+        <div class="space-x-8 hidden md:block text-[10px] uppercase tracking-[0.15em] font-medium">
+            <a href="#about" class="hover:text-stone-400 transition">Über mich</a>
+            <a href="#services" class="hover:text-stone-400 transition">Angebot</a>
+            <a href="#contact" class="bg-[#2D2D2D] text-white px-6 py-3 rounded-full hover:bg-stone-700 transition">Termin buchen</a>
         </div>
     </nav>
 
-    <section class="max-w-6xl mx-auto px-8 py-20 md:py-32 grid md:grid-cols-2 gap-12 items-center">
+    <section class="max-w-6xl mx-auto px-8 py-16 md:py-28 grid md:grid-cols-2 gap-16 items-center">
         <div>
-            <h1 class="text-5xl md:text-7xl mb-6">Raum für <br><span class="italic text-stone-500">Klarheit & Wachstum</span></h1>
-            <p class="text-lg text-stone-600 mb-8 max-w-md">Professionelle psychologische Begleitung in Zürich. Gemeinsam finden wir Wege zu Ihrer mentalen Balance.</p>
-            <a href="#contact" class="inline-block border-b-2 border-[#2D2D2D] pb-1 font-medium hover:text-stone-500 hover:border-stone-500 transition">Termin vereinbaren →</a>
+            <span class="text-xs uppercase tracking-widest text-stone-400 mb-4 block">Psychologische Praxis Zürich</span>
+            <h1 class="text-5xl md:text-7xl mb-8 leading-tight">Zeit für <br><span class="italic text-stone-500">neue Wege.</span></h1>
+            <p class="text-lg text-stone-600 mb-10 max-w-md font-light">
+                Ich unterstütze Sie dabei, mentale Blockaden zu lösen und neue Perspektiven für Ihr Leben zu gewinnen. Professionell, diskret und auf Augenhöhe.
+            </p>
+            <a href="#contact" class="inline-block border-b border-[#2D2D2D] pb-2 text-sm uppercase tracking-widest hover:text-stone-400 hover:border-stone-400 transition">Jetzt anfragen</a>
         </div>
+        
         <div class="relative">
-            <div class="aspect-[4/5] bg-stone-200 rounded-2xl overflow-hidden shadow-sm">
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=1000" alt="Richard Profile" class="w-full h-full object-cover grayscale opacity-80">
+            <div class="aspect-[3/4] bg-stone-200 overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000" 
+                     alt="Richard Portrait" 
+                     class="w-full h-full object-cover grayscale brightness-110">
             </div>
+            <div class="absolute -bottom-6 -left-6 w-24 h-24 border-l border-b border-stone-300"></div>
         </div>
     </section>
 
-    <section id="services" class="bg-white py-24">
+    <section id="services" class="bg-white py-24 border-y border-stone-100">
         <div class="max-w-6xl mx-auto px-8">
-            <h2 class="text-3xl mb-16 text-center">Arbeitsschwerpunkte</h2>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="space-y-4">
-                    <span class="text-stone-400 text-sm italic">01.</span>
-                    <h3 class="text-xl font-semibold">Einzeltherapie</h3>
-                    <p class="text-stone-600">Unterstützung bei Depressionen, Ängsten und persönlichen Krisen in einem geschützten Rahmen.</p>
+            <h2 class="text-3xl mb-20">Schwerpunkte</h2>
+            <div class="grid md:grid-cols-3 gap-16">
+                <div class="group">
+                    <div class="h-[1px] bg-stone-200 w-full mb-8 group-hover:bg-stone-800 transition-colors"></div>
+                    <h3 class="text-xl mb-4 italic">Burnout-Prävention</h3>
+                    <p class="text-stone-500 font-light text-sm leading-relaxed">Strategien zur Bewältigung von Stress und zur Wiederherstellung Ihrer Leistungsfähigkeit im Berufsalltag.</p>
                 </div>
-                <div class="space-y-4">
-                    <span class="text-stone-400 text-sm italic">02.</span>
-                    <h3 class="text-xl font-semibold">Stressmanagement</h3>
-                    <p class="text-stone-600">Prävention von Burnout und Erlernen von effektiven Entspannungstechniken für den Alltag.</p>
+                <div class="group">
+                    <div class="h-[1px] bg-stone-200 w-full mb-8 group-hover:bg-stone-800 transition-colors"></div>
+                    <h3 class="text-xl mb-4 italic">Lebenskrisen</h3>
+                    <p class="text-stone-500 font-light text-sm leading-relaxed">Begleitung bei Umbrüchen, Trennungen oder dem Verlust von Orientierung in schwierigen Phasen.</p>
                 </div>
-                <div class="space-y-4">
-                    <span class="text-stone-400 text-sm italic">03.</span>
-                    <h3 class="text-xl font-semibold">Paarberatung</h3>
-                    <p class="text-stone-600">Kommunikation verbessern und Konflikte gemeinsam lösen für eine stärkere Beziehung.</p>
+                <div class="group">
+                    <div class="h-[1px] bg-stone-200 w-full mb-8 group-hover:bg-stone-800 transition-colors"></div>
+                    <h3 class="text-xl mb-4 italic">Angststörungen</h3>
+                    <p class="text-stone-500 font-light text-sm leading-relaxed">Gemeinsames Erarbeiten von Wegen aus der Isolation und dem Kreislauf der Angst.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-24 max-w-4xl mx-auto px-8 text-center">
-        <h2 class="text-4xl mb-8">Kontakt</h2>
-        <p class="mb-12 text-stone-600 italic">Ich freue mich auf Ihre Nachricht.</p>
-        
-        <div class="grid md:grid-cols-2 gap-12 text-left">
-            <div class="space-y-4">
-                <h4 class="font-bold uppercase text-xs tracking-widest">Anschrift</h4>
-                <p class="text-stone-600">
-                    Praxis Richard<br>
-                    Bahnhofstrasse 100<br>
-                    8001 Zürich, Schweiz
-                </p>
+    <footer id="contact" class="py-24 max-w-6xl mx-auto px-8">
+        <div class="grid md:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-4xl mb-8 leading-snug">Lassen Sie uns <br>ins Gespräch kommen.</h2>
+                <p class="text-stone-500 font-light">Termine nach Vereinbarung in der Praxis oder online.</p>
             </div>
-            <div class="space-y-4">
-                <h4 class="font-bold uppercase text-xs tracking-widest">Kontakt Details</h4>
-                <p class="text-stone-600">
-                    richard@beispiel-psy.ch<br>
-                    +41 44 123 45 67
-                </p>
+            <div class="space-y-12">
+                <div>
+                    <h4 class="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-4">Adresse</h4>
+                    <p class="text-lg font-light">Bahnhofstrasse 100<br>8001 Zürich, Schweiz</p>
+                </div>
+                <div>
+                    <h4 class="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-4">Direktkontakt</h4>
+                    <p class="text-lg font-light">hallo@richard-psychologie.ch<br>+41 44 000 00 00</p>
+                </div>
             </div>
         </div>
-        
-        <div class="mt-24 pt-8 border-t border-stone-200 text-xs text-stone-400 uppercase tracking-widest">
-            &copy; 2026 Richard Psychologie. Alle Rechte vorbehalten.
+        <div class="mt-32 pt-8 border-t border-stone-200 flex justify-between items-center text-[10px] uppercase tracking-widest text-stone-400">
+            <span>&copy; 2026 Richard Psychologie</span>
+            <span>Impressum & Datenschutz</span>
         </div>
-    </section>
+    </footer>
 
 </body>
 </html>
